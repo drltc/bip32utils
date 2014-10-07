@@ -10,7 +10,7 @@ setup(
     url = 'http://github.com/jmcorgan/bip32utils',
     description = 'Utilites for generating and using Bitcoin hierarchical deterministic wallets (BIP0032).',
     license = 'MIT',
-    requires = ['ecsda'],
+    requires = ['ecdsa'],
     packages = ['bip32utils'],
     scripts = ['bin/bip32gen']
 )
